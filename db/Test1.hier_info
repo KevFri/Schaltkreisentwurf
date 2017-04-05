@@ -1,0 +1,24 @@
+|Test1_tb
+
+
+|Test1_tb|Test1:DUT
+A => X.IN0
+A => Z.IN0
+B => X.IN1
+B => Z.IN1
+C => X.IN1
+C => Z.IN1
+X <= X.DB_MAX_OUTPUT_PORT_TYPE
+Y <= X.DB_MAX_OUTPUT_PORT_TYPE
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Test1_tb|Test1_tester:tester
+A <= <GND>
+B <= <GND>
+C <= <GND>
+X => ~NO_FANOUT~
+Y => ~NO_FANOUT~
+Z => ~NO_FANOUT~
+
+

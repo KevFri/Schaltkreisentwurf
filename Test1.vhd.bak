@@ -1,0 +1,24 @@
+library ieee;					  --Bibliothek für std_logic einbinden
+use ieee.std_logic_1164.all; --Package von Bibliothek einbinden
+use ieee.numeric_std.all;
+-- use ieee.std_logic_arith.all; --sollte nicht verwendet werden
+
+
+ENTITY Test1 IS --Definition der Ein und Ausgaenge
+PORT --Ein/Ausgaenge
+(
+	A : in std_logic;  --Name : Eingang(in) Typ (std_logic)
+	B : in std_logic;
+	C : in std_logic;
+	X, Y, Z : out std_logic --letzte Zeile kein Semicolon!
+);
+END ENTITY Test1;
+
+ARCHITECTURE behave OF Test1 is
+
+BEGIN
+	X <= A AND B AND C;
+	Y <= A NAND B NAND C;
+	Z <= A OR B OR C;
+
+END ARCHITECTURE behave;

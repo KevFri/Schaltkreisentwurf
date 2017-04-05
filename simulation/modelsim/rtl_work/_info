@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/simulation/modelsim
+Etest1
+Z1 w1490781443
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1.vhd
+Z6 FC:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1.vhd
+l0
+L7
+VP0JUIlVDncW=b:H6Yzi6Y1
+!s100 =:RIgF3TE4El3N[KIN<Xc3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1491390836
+!i10b 1
+Z9 !s108 1491390836.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1.vhd|
+Z11 !s107 C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehave
+R2
+R3
+R4
+DEx4 work 5 test1 0 22 P0JUIlVDncW=b:H6Yzi6Y1
+l21
+L17
+VXP3c3K>mhHBfm7mj5KgT]0
+!s100 jG@;o2=dZbbg4cBV2U4c11
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etest1_tb
+Z14 w1491387981
+R3
+R4
+R0
+Z15 8C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tb.vhd
+Z16 FC:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tb.vhd
+l0
+L5
+VI;VO5J@^GBXgbS8kDXV202
+!s100 eTES0OM9Nf;9@l<11FXnd1
+R7
+31
+Z17 !s110 1491390837
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tb.vhd|
+Z19 !s107 C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tb.vhd|
+!i113 1
+R12
+R13
+Asim
+R3
+R4
+Z20 DEx4 work 8 test1_tb 0 22 I;VO5J@^GBXgbS8kDXV202
+l34
+L9
+Z21 V9Jdn=Uc<Qim;nzTNGdA5R0
+Z22 !s100 JMBhOjjSmKn5U8]Q]EO:S1
+R7
+31
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Etest1_tester
+Z23 w1491388041
+R3
+R4
+R0
+Z24 8C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tester.vhd
+Z25 FC:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tester.vhd
+l0
+L7
+Vji`W9Wcz0AmT>nc7AbG[X0
+!s100 <BP<jZUzYc;HLD<d;0_^e2
+R7
+31
+R8
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tester.vhd|
+Z27 !s107 C:/Users/Kevin/Dropbox/Studium/ET6/Schaltkreisentwurf/FPGA/Test1_tester.vhd|
+!i113 1
+R12
+R13
+Asim
+R3
+R4
+DEx4 work 12 test1_tester 0 22 ji`W9Wcz0AmT>nc7AbG[X0
+l20
+L17
+VDAY<hOO425m`^>gA`^<k23
+!s100 k1?B]:K5EiBjCOSQkbf1f0
+R7
+31
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
